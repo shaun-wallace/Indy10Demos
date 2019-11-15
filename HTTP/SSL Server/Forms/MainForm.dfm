@@ -242,6 +242,7 @@ object frmMain: TfrmMain
     OnException = ServerException
     Scheduler = IdSchedulerOfThreadDefault1
     OnCommandGet = ServerCommandGet
+    OnQuerySSLPort = ServerQuerySSLPort
     Top = 200
   end
   object OpenSSL: TIdServerIOHandlerSSLOpenSSL
